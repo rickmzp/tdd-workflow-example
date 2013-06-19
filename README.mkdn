@@ -1,0 +1,11 @@
+1. `rbenv local 1.9.3-p429`
+2. Create `Gemfile` in project root
+
+    ```
+    source "https://rubygems.org"
+    gem "rails"
+    ```
+3. `rails new .`
+    - Yes, overwrite the Gemfile created in step 2
+4. Replace `sqlite3` with `mongoid` in `Gemfile`
+5. Add `rspec-rails`, `turnip` to `development` and `test` groups in `Gemfile`
