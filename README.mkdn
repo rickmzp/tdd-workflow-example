@@ -10,4 +10,5 @@
 4. Replace `sqlite3` with `mongoid` in `Gemfile`
 5. Add `rspec-rails`, `turnip` to `development` and `test` groups in `Gemfile`
 6. Update `config/application.rb` to use `Mongoid` and not `ActiveRecord`
-   (https://github.com/rickmzp/tdd-workflow-example/commit/87520b2e39ef946d8078c5749c22cac08eff46a6)
+   
+   https://github.com/rickmzp/tdd-workflow-example/commit/87520b2e39ef946d8078c5749c22cac08eff46a6
