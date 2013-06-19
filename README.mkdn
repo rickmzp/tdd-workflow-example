@@ -12,3 +12,6 @@
 6. Update `config/application.rb` to use `Mongoid` and not `ActiveRecord`
    
    https://github.com/rickmzp/tdd-workflow-example/commit/87520b2e39ef946d8078c5749c22cac08eff46a6
+7. Add `simple_form` to `Gemfile`
+8. Run `rails generate simple_form:install --boostrap`
+9. Set up `bootstrap-sass`: https://github.com/thomas-mcdonald/bootstrap-sass
